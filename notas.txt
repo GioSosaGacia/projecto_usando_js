@@ -15,3 +15,33 @@ Extenciones.
 Node.js permite trabajar con Js, es una plataforma para ejecutar js  
 
 Ctrl + Shift + p es el command palette para acceder a librerias etc o comandos
+Ctrl + shoft + u Para la consola
+
+
+Como validar si tengo node.js, en la terminal puedo ejecutar node -v y despues el nombre de mi archivo 
+    Node.js v22.14.0
+    PS C:\Users\giova\JavaScript> node HolaMundo.js
+    Hola mundo desde mi casa
+    Saludos
+
+Variables almanacenan datos y ahi varios tipos de datos:
+    1.nombre siempre inicia en minuscula, se debe de usar var o let, en la actualidad solo se usa let, podemos usar numeros, letras,$, _ o -, notacion de camello, js es sencible a mayusculas y minusculas
+    2.valor a almacenar
+    3.La dirección donde se guardara
+    Ejemplo: let monbre = 'Giovanni'
+
+Alt + z para autoajustar el conenido al tamaño de la ventana
+
+
+
+Para documentar programas // o /* */
+
+Variables: tipo number = 10, -40,3.0, -99.38
+        Strings = 'Hola', "Hola",
+        Boolean = True or False
+        Null = Ausencia de la referencia de un objeto 
+        Undefined = Ausencia de un valor
+
+
+Operadores:
+    + suma, - resta, * multiplicacion, / division, % modulo, ** potencia, ++ o -- incrmento o decremento puede ser pre incremento ++ v o post incremento v ++
