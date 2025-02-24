@@ -1,0 +1,17 @@
+1:lenguaje compilado:Java, c++
+Un lenguaje compilado se debe de comvertir a codigo maquina para que la computadora ejecute el codigo.
+
+2:Interpretados:Python, Js
+Un lenguaje interpretado se ejecuta linea a linea en el programa 
+
+Requerimientos:
+    1:Visual Studio Code
+Extenciones.
+    1.Prettier 
+    2.Bracket Pair Colorization Toggler permite identificar donde se abre y ce sierra una llave
+    3.Quokka.js permite visualizar el codigo sin ejecutarlo
+    4.Quokka Statusbar Buttons Facilita el uso de quokka
+
+Node.js permite trabajar con Js, es una plataforma para ejecutar js  
+
+Ctrl + Shift + p es el command palette para acceder a librerias etc o comandos
