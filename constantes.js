@@ -73,3 +73,65 @@ let q = '5';
 console.log('a == b', w == q);
 // igualdad estricta la cual compara el dato y su tipo
 console.log('a === b', w === q);
+
+
+//String Interpolation es como el f'string de python y se usa agregando el back-tick ``
+console.log(`${w} === ${q} --> ${w ===q}`);
+console.log(`${w} == ${q} --> ${w ==q}`);
+
+
+// Operador distinto != 
+console.log(`${w} != ${q} --> ${w != q}`);
+console.log(`${w} !== ${q} --> ${w !== q}`);
+
+
+
+
+
+
+
+
+
+
+
+
+let z = true;
+let x = false;
+
+console.log(z);
+console.log(x);
+
+// operadores logicos && and y -> regresa verdadero si ambos valores son verdaderos pero si uno es falso siempre retornará false. si la expresion de lado izquierdo es falso se aplica el corto circuito y en automatico es false
+console.log(`${z} && ${x} -> ${z && x}`)
+
+//  || or o -> retorna True si cualquiera de los 2 operandos es verdadero pero si ambos son falsos retornará False
+console.log(`${z} || ${x} -> ${z || x}`);
+
+//Negación ! not no --> invierte el resultado logico de la expresion true = false and false = true, es conocido como operador unario
+console.log(`${z} --> ${!z}`);
+console.log(`${x} --> ${!x}`);
+
+
+
+
+
+
+
+
+
+
+// import prompt from 'prompt'
+// Valor dentro de un rango  solo funciona en el navegador
+let valor_minimo = 0, valor_maximo = 5;
+// let valor = parseInt(prompt('Ingresa un numero: '));
+
+// if (!isNaN(valor) && valor >= valor_minimo && valor <= valor_maximo){
+//     console.log(`Estas dentro del rango: ${valor}`)
+// } else {
+//     console.log(`El numero: ${valor} no esta dentro del rango`)
+// }
+
+// otro ejemplo 
+let dato = 3 
+let dentroRango = dato >= valor_minimo && dato <= valor_maximo;
+console.log(`Valor dentro de rango: `, dentroRango)
