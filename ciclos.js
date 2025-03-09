@@ -1,5 +1,5 @@
 // Permiten repetir un bloque de codigo mientras la condicion sea verdadera
-/*while, di while y for 
+/*while, do while y for 
         while(condicion){
             se ejecuta siempre y cuando cumpla la condicion 
         }*/
@@ -57,5 +57,20 @@ for(i = 1; i <= numeros; i++){
     //realizamos la suma parcial
     suma+=i
     console.log(suma)
+
 }
 console.log(suma);
+
+
+
+
+
+let acumulador = 0, numero = 1, maximo = 5;
+ //Suma Acumulativa con do{} while{}
+console.log("Suma con do while")
+ do{
+    console.log(` ${acumulador} + ${numero}`)
+    console.log(acumulador += numero);
+        numero ++;
+ }while(numero <= maximo)
+    console.log(acumulador);
