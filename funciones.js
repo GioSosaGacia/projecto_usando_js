@@ -19,8 +19,8 @@ console.log(suma(2,4));
 
 
 
-
-// 1.Procediemientos en js
+// Paso por valor se refiere al paso de argumentos a las fucniones, recibiendo una copia del valor original, lo que implica que cualquier cambio dentro de la funcion no afectará al valor original que esta afuera de la función. Comunmente se aplica a los datos primitivos: numeros, cadenas de texto, bool, undefined, null, bigInt 
+//1.Procediemientos en js
 //1.definir el procedimeinto
 function saludar(mensaje){
     // cuerpo de la funcion 
@@ -42,3 +42,23 @@ function sumar1(a,b){
 let argA = 5, argB = 7;
 let resultado = sumar1(argA,argB);
 console.log(`El resultado de la suma es: ${resultado}`);
+
+
+
+
+
+
+
+
+// Paso por referencia:
+// Los obejetos(Array)/funciones, se pasan por referencia, tambien un diccionario es un objeto ya que contiene clave-valor
+
+// El paso por referencia en JavaScript se refiere al comportamiento cuando se pasan objetos (incluidos arrays y funciones) como argumentos a una función,  lo que significa que los cambios realizados dentro de la función afectarán directamente al objeto fuera de la función. 
+function cambiarValor(parametro){
+    parametro[0] = 20;
+}
+// Llamamos a la funcion 
+let arreglo = [10];
+console.log(`Antes de la función; ${arreglo[0]}`);
+cambiarValor(arreglo);
+console.log(`Despues de la función: ${arreglo[0]}`);

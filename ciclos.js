@@ -53,10 +53,10 @@ numeros = 5;
 suma = 0;
 for(i = 1; i <= numeros; i++){
     // Imprimimos lo que va ha sumar
-    console.log(`${suma} + ${i}`)
+    console.log(`${suma} + ${i}`);
     //realizamos la suma parcial
     suma+=i
-    console.log(suma)
+    console.log(suma);
 
 }
 console.log(suma);
