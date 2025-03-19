@@ -111,6 +111,7 @@ console.log(d + e);
 // conversión a numero para hacer la suma
 let suma = parseInt(d) + parseInt(e);
 console.log(suma);
+console.log(typeof(suma));
 
 
 // convertir un nuemro a una cadena
@@ -118,6 +119,7 @@ let a1 = 10, b1 = 20;
 console.log(a1 + b1);
 let concatenacion = a1.toString() + b1.toString()
 console.log(concatenacion);
+console.log(typeof(concatenacion));
 
 
 // Valor absoluto de un numero es el mismo valor pero sin considerar su signo --> El valor absoluto de un número es la distancia de ese número respecto al cero en la recta numérica, sin tener en cuenta su signo. Es decir, el valor absoluto siempre es un número positivo o cero.
